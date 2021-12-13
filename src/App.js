@@ -4,7 +4,7 @@ import {
   increaseAmount,
   decrement,
   increment,
-} from "./redux/slices/counterSlices";
+} from "./redux/slices/counterSlices-v2";
 
 function App() {
   const counter = useSelector(state => state.counter);
