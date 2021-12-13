@@ -26,3 +26,6 @@ export const counterSlices = createSlice({
 export const { increment, decrement, increaseAmount } = counterSlices.actions;
 
 export default counterSlices.reducer;
+
+
+// https://jsonplaceholder.typicode.com/posts
